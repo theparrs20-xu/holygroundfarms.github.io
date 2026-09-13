@@ -1,0 +1,76 @@
+/* Holy Ground Farms - Main Styles */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f5f1e8;
+  color: #333333;
+}
+
+header {
+  background-color: #31572c;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 3rem;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+nav {
+  margin-top: 25px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+section {
+  background-color: white;
+  margin-bottom: 30px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+section h2 {
+  color: #31572c;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #31572c;
+}
+
+footer {
+  background-color: #263d23;
+  color: white;
+  text-align: center;
+  padding: 25px 20px;
+}
